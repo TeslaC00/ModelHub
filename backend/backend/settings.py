@@ -80,11 +80,11 @@ WSGI_APPLICATION = 'backend.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'modelhubdatabase',
+        'NAME': 'modelhub',
         'USER': 'teslac00',
         'PASSWORD': '16122002',
         'HOST': 'localhost',
-        'PORT': '5432',
+        'PORT': '5433',
     }
 }
 
